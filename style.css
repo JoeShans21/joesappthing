@@ -1,0 +1,29 @@
+.msg {
+	list-style: none;
+	width: 80vw;
+  	margin:0 auto;
+  	word-wrap: break-word;
+}
+
+form {
+	padding-bottom: 2%;
+}
+
+.msg:nth-child(odd) {
+	background: #eee;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+#myprofile {
+    font-size:16px;
+    border:none; 
+    display:inline; 
+	margin-right:20px; 
+	background-color:inherit;
+ 	font-family: "Times New Roman", Times, serif;
+}
+#myprofile:hover{
+	cursor:pointer;
+}

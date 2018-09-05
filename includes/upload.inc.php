@@ -37,7 +37,7 @@ if ($uploadOk == 0) {
 // if everything is ok, try to upload file
 } else {
     if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
-        header("Location: ../");
+        header("Location: ../?login=success");
         exit();
     } else {
         echo "Sorry, there was an error uploading your file.";

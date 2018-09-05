@@ -34,14 +34,9 @@
     </p>
     <p>
         <?php
-            $path = 'accounts/' . $_SESSION['u_uid'] . '/pfp';
+            $path = 'accounts/jshans21/pfp';
             $files = scandir($path);
-            if (isset($files[2])){
-                
-            }
+            echo "<img src='" . "accounts/" . $_SESSION['u_uid'] . "/pfp/" . $files[2] . "'>";
         ?>
     </p>
 </html>
-<?php
-    include_once 'footer.php';
-?> 

@@ -2,4 +2,4 @@
 
 
 
-$conn = mysqli_connect("sql9.freemysqlhosting.net", "sql9251151", "w73z9SwvYP", "sql9251151");
+$conn = mysqli_connect("localhost:3306", "root", "", "db");
